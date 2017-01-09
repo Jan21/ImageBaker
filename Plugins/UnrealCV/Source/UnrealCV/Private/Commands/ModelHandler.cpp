@@ -35,7 +35,7 @@ FExecStatus FModelCommandHandler::LoadUAsset(const TArray<FString>& Path)
 
 		UStaticMesh* Mesh;
 		Mesh = LoadMeshFromPath(FName(*PathStr));
-		FVector NewLocation = FVector(0.f, 0.f, 0.f);
+		FVector NewLocation = FVector(0.f, 0.f, 10.f);
 		AStaticMeshActor::StaticClass();
 		GEngine->GetWorld();
 		AStaticMeshActor* newActor = NULL;
