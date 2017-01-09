@@ -1,0 +1,19 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{1B1AED49-424F-7A34-094D-37872FA4C5BD}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "ImageBaker",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "UnrealCV",
+			"Enabled": true
+		}
+	]
+}
